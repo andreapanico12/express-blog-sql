@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "name": "express-blog-sql",
+  "version": "1.0.0",
+  "description": "## Consegna:",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreapanico12/express-blog-sql.git"
+  },
+  "author": "AP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreapanico12/express-blog-sql/issues"
+  },
+  "homepage": "https://github.com/andreapanico12/express-blog-sql#readme"
+}
