@@ -1,4 +1,10 @@
+
+const connection = require(`../data/dbPosts`)
+
+
 const index = (req,res) =>{
+  
+
   res.send(`Visualizzo la lista dei post`)
 }
 
