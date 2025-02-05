@@ -32,7 +32,12 @@ const modify = (req,res) =>{
 
 const destroy = (req,res) =>{
   const id = req.params.id;
-  res.send(`Elimino il post con id ${id}`)
+  const sql = `DELETE FROM posts WHERE id = ?`;
+
+  connection.query(sql,[id],(err)=>{
+    if(err) return res.status(500).json({error:`Post elimination failed`})
+    res.sendstatus(204)
+  })
 }
 
 module.exports = {
